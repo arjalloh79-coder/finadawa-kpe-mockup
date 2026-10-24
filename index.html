@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Finadawa | Fast-Food & Restaurant Kipé</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <script>
+    tailwind.config = { theme: { extend: { colors: { navy: '#0f172a', teal: '#0d9488', cream: '#f8fafc' }, fontFamily: { sans: ['Inter', 'system-ui', 'sans-serif'] } } } }
+  </script>
+  <style>.lang-en{display:none}.active-lang-en .lang-fr{display:none}.active-lang-en .lang-en{display:block}</style>
+</head>
+<body class="bg-cream text-navy font-sans">
+  <div class="bg-amber-50 border-b text-center py-2 text-sm text-amber-800">
+    <span class="lang-fr">Maquette gratuite par Al-Falah Marketing — rien n’est en ligne sous votre nom.</span>
+    <span class="lang-en">Complimentary mockup by Al-Falah Marketing — nothing is live under your name.</span>
+  </div>
+  <header class="sticky top-0 z-50 bg-white/90 backdrop-blur border-b">
+    <div class="max-w-6xl mx-auto px-4 py-3 flex justify-between items-center">
+      <div class="text-2xl font-bold">FINADAWA</div>
+      <div class="flex items-center gap-3">
+        <button onclick="document.body.classList.toggle('active-lang-en')" class="text-xs border px-2 py-1 rounded">FR/EN</button>
+        <a href="https://wa.me/224612988454" class="bg-teal text-white px-4 py-2 rounded-xl text-sm font-semibold">Commander</a>
+      </div>
+    </div>
+  </header>
+  <section class="relative h-[70vh] min-h-[480px] flex items-end">
+    <img src="https://images.unsplash.com/photo-1561758033-d89a9ad46330?auto=format&fit=crop&w=1600&q=80" class="absolute inset-0 w-full h-full object-cover" alt="Burger">
+    <div class="absolute inset-0 bg-gradient-to-t from-navy/80"></div>
+    <div class="relative z-10 max-w-6xl mx-auto px-4 pb-12 text-white">
+      <h1 class="text-4xl md:text-6xl font-extrabold">Fast-Food & Restaurant</h1>
+      <p class="mt-3 text-xl">Votre adresse gourmande à Kipé · Sur place · Livraison · À emporter</p>
+      <div class="mt-6 flex gap-3">
+        <a href="https://wa.me/224612988454?text=Bonjour%20Finadawa%2C%20je%20souhaite%20passer%20une%20commande" class="bg-teal text-white px-6 py-3 rounded-xl font-semibold">Commander maintenant</a>
+        <a href="tel:+224612988454" class="border border-white/40 px-6 py-3 rounded-xl">+224 612 98 84 54</a>
+      </div>
+    </div>
+  </section>
+  <div class="bg-navy text-white text-center py-3 text-sm">Al-Falah Marketing · Laurel · Coyah · Freetown</div>
+  <section class="py-16 px-4 max-w-6xl mx-auto">
+    <h2 class="text-3xl font-bold text-center mb-10">Spécialités</h2>
+    <div class="grid md:grid-cols-3 gap-6">
+      <div class="bg-white rounded-2xl shadow overflow-hidden">
+        <img src="https://images.unsplash.com/photo-1571091718767-18b5b1457add?auto=format&fit=crop&w=800&q=80" class="h-48 object-cover w-full" alt="">
+        <div class="p-5"><h3 class="font-bold">Burgers & Tacos</h3><p class="text-sm text-slate-600">Les plus irrésistibles à Kipé.</p></div>
+      </div>
+      <div class="bg-white rounded-2xl shadow overflow-hidden">
+        <img src="https://images.unsplash.com/photo-1550547660-d9450f859349?auto=format&fit=crop&w=800&q=80" class="h-48 object-cover w-full" alt="">
+        <div class="p-5"><h3 class="font-bold">Poulet frit</h3><p class="text-sm text-slate-600">Croustillant et savoureux.</p></div>
+      </div>
+      <div class="bg-white rounded-2xl shadow overflow-hidden">
+        <img src="https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&w=800&q=80" class="h-48 object-cover w-full" alt="">
+        <div class="p-5"><h3 class="font-bold">Livraison rapide</h3><p class="text-sm text-slate-600">Kipé Centre Emetteur, Conakry</p></div>
+      </div>
+    </div>
+  </section>
+  <section class="py-16 bg-white">
+    <div class="max-w-6xl mx-auto px-4">
+      <h2 class="text-3xl font-bold text-center mb-10">Galerie</h2>
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+        <img src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&w=600&q=80" class="rounded-xl h-48 object-cover" alt="">
+        <img src="https://images.unsplash.com/photo-1551782450-a2132b4ba21d?auto=format&fit=crop&w=600&q=80" class="rounded-xl h-48 object-cover" alt="">
+        <img src="https://images.unsplash.com/photo-1594212699903-ec8a3eca50f5?auto=format&fit=crop&w=600&q=80" class="rounded-xl h-48 object-cover" alt="">
+        <img src="https://images.unsplash.com/photo-1565299507177-b0ac66763828?auto=format&fit=crop&w=600&q=80" class="rounded-xl h-48 object-cover" alt="">
+      </div>
+    </div>
+  </section>
+  <section class="py-16 px-4 max-w-2xl mx-auto text-center">
+    <h2 class="text-3xl font-bold mb-6">Contact</h2>
+    <div class="bg-white rounded-2xl p-6 shadow">
+      <p class="font-semibold">Finadawa Fast-Food & Restaurant</p>
+      <p>Kipé Centre Emetteur, Conakry, Guinée</p>
+      <p class="mt-2"><a href="tel:+224612988454" class="text-teal">+224 612 98 84 54</a></p>
+      <p><a href="mailto:ets.finadawa.224@gmail.com" class="text-teal">ets.finadawa.224@gmail.com</a></p>
+      <a href="https://wa.me/224612988454?text=Bonjour%20Finadawa%2C%20je%20souhaite%20commander" class="mt-4 inline-block bg-teal text-white px-6 py-3 rounded-xl">WhatsApp</a>
+    </div>
+  </section>
+  <footer class="bg-navy text-slate-300 py-10 text-sm text-center">
+    <p class="text-white font-semibold">Al-Falah Marketing</p>
+    <p>8468 Winding Trail, Laurel, MD 20724 · +1 240 280 6137 · +224 611 351 302</p>
+    <p>info@al-falahmarketing.com · al-falahmarketing.com</p>
+    <p class="mt-4 text-xs">Maquette de présentation uniquement. Aucun site publié sous le nom du client.</p>
+  </footer>
+  <div class="fixed bottom-0 left-0 right-0 bg-white border-t md:hidden flex justify-around py-2">
+    <a href="tel:+224612988454" class="text-xs">Appeler</a>
+    <a href="https://wa.me/224612988454" class="text-xs font-semibold text-teal">WhatsApp</a>
+    <a href="#" class="text-xs">Menu</a>
+  </div>
+</body>
+</html>
